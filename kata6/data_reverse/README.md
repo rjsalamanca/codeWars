@@ -17,3 +17,5 @@ The total number of bits will always be a multiple of 8.
 The data is given in an array as such:
 
     [1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0]
+
+Link to Kata: [https://www.codewars.com/kata/data-reverse]
