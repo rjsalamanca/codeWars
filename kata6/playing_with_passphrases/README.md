@@ -22,6 +22,6 @@ your text: "BORN IN 2015!", shift 1
 
 With longer passphrases it's better to have a small and easy program. Would you write it?
 
-[](https://en.wikipedia.org/wiki/Passphrase)
+[https://en.wikipedia.org/wiki/Passphrase]
 
 Link to Kata: [Playing with passphrases](https://www.codewars.com/kata/559536379512a64472000053)
