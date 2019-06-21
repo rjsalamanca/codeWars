@@ -8,3 +8,5 @@ n = 3, so I expect a 3x3 square back just like below as a string:
     +++
     +++
     +++
+
+CodeWars Link: https://www.codewars.com/kata/build-a-square/train/javascript
