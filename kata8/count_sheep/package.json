@@ -1,0 +1,15 @@
+{
+  "name": "count_sheep",
+  "version": "0.0.1",
+  "description": "code wars kata 8 challenge",
+  "main": "count_sheep.js",
+  "scripts": {
+    "test": "mocha count_sheep.js"
+  },
+  "author": "rj",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
