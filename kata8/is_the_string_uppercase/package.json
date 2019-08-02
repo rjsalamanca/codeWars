@@ -1,0 +1,15 @@
+{
+  "name": "is_the_string_uppercase",
+  "version": "0.0.1",
+  "description": "kata 8 challenge",
+  "main": "is_the_string_uppercase.js",
+  "scripts": {
+    "test": "mocha is_the_string_uppercase.js"
+  },
+  "author": "rj",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
