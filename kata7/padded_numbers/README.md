@@ -5,3 +5,5 @@ Complete the solution so that it returns a formatted string. The return value sh
 Example:
 
     solution(5) // should return "Value is 00005"
+
+CodeWars Link: https://www.codewars.com/kata/51c89385ee245d7ddf000001
