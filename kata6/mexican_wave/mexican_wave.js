@@ -1,9 +1,11 @@
 function wave(x) {
-    var ripple = [];
-    for (var i = 0; i < x.length; i++) {
-        ripple.push(x.split('').map((e, ind) => ind == i ? e.toUpperCase() : e).join(''))
+    let ripple = [];
+
+    for (let i = 0; i < x.length; i++) {
+        ripple.push(x.split('').map((e, ind) => (!e.match(/([a-z])/g)) ? e : (ind == i) ? e.toUpperCase() : e).join(''))
     }
-    return ripple;
+
+    return ripple.filter(e => e !== x);
 }
 
 const { assert } = require("chai");
@@ -19,8 +21,8 @@ describe("Basic Tests", function () {
     it("Testing for []", () => wave(""), result3);
 
     let result4 = ["Two words", "tWo words", "twO words", "two Words", "two wOrds", "two woRds", "two worDs", "two wordS"];
-    it("Testing for [3, 6, 9, 8, 9]", () => aassert.deepEqual(wave("two words"), result4));
+    it("Testing for 'two words'", () => assert.deepEqual(wave("two words"), result4));
 
     let result5 = [" Gap ", " gAp ", " gaP "];
-    it("Testing for [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9, 9, 8]", () => assert.deepEqual(wave(" gap "), result5));
+    it("Testing for ' gap '", () => assert.deepEqual(wave(" gap "), result5));
 });
