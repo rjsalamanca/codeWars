@@ -1,0 +1,17 @@
+{
+  "name": "incrementer",
+  "version": "0.0.1",
+  "description": "codewars app",
+  "main": "incrementer.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha incrementer.js"
+  },
+  "author": "rj",
+  "license": "ISC"
+}
