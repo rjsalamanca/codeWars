@@ -1,0 +1,16 @@
+{
+  "name": "mexican_wave",
+  "version": "0.0.1",
+  "description": "codewars kata 6",
+  "main": "mexican_wave.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha mexican_wave.js"
+  },
+  "author": "rj",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
