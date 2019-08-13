@@ -1,0 +1,11 @@
+{
+  "name": "vowel_count",
+  "version": "0.0.1",
+  "description": "",
+  "main": "vowel_count.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rjs",
+  "license": "ISC"
+}
