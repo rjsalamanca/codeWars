@@ -1,0 +1,11 @@
+{
+  "name": "multiples_of_3_or_5",
+  "version": "0.0.1",
+  "description": "",
+  "main": "multiples_of_3_or_5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rjs",
+  "license": "ISC"
+}
