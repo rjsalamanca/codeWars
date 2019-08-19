@@ -1,0 +1,15 @@
+{
+  "name": "greed_is_good",
+  "version": "0.0.1",
+  "description": "codewars challenge",
+  "main": "greed_is_good.js",
+  "scripts": {
+    "test": "mocha greed_is_good.js"
+  },
+  "author": "rj",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}

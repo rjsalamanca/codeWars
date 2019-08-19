@@ -1,0 +1,15 @@
+{
+  "name": "iterative_rotation_cipher",
+  "version": "0.0.1",
+  "description": "kyu 5 challenge",
+  "main": "iterative_rotation_cipher",
+  "scripts": {
+    "test": "mocha iterative_rotation_cipher.js"
+  },
+  "author": "rj",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
