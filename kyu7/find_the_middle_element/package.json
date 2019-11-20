@@ -1,0 +1,11 @@
+{
+  "name": "find_the_middle_element",
+  "version": "0.0.1",
+  "description": "",
+  "main": "find_the_middle_element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
